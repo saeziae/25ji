@@ -3,6 +3,7 @@ import datetime
 import asyncio
 import os
 import random
+import time
 HOST = ''
 PORT = 2500
 LYRICS_FILE = 'lyrics.txt'
@@ -23,8 +24,13 @@ async def handle(client_reader, client_writer):
             await client_writer.drain()
         else:
             lyric = random.choice(LYRICS)
-            client_writer.write(lyric.encode())
+            for x in lyric:
+                client_writer.write(x.encode())
+                await client_writer.drain()
+                time.sleep(0.05)
+            client_writer.write(b'\n')
             await client_writer.drain()
+            time.sleep(0.05)
 
     except ConnectionResetError:
         print(f"Connection from {client_address} reset by peer nya.")
