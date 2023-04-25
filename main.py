@@ -1,4 +1,4 @@
-# /usr/bin/python3
+#! /usr/bin/python3
 import datetime
 import asyncio
 import os
