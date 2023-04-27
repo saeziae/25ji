@@ -75,7 +75,7 @@ kuchimoto ni nokoru amasa wa doko e yarou
 nee aishite wo tsunaide uso datte waratte
 doko e ita tte juwaki goshi
 tegoro na renwa kimari no serifu iki wo hisomete
-“aishiteru yo”
+"aishiteru yo"
 
 kuchi wo tsukezu ni sameta koucha wo
 suterarenai you na koi demo
@@ -103,7 +103,7 @@ rireki ni nai you na sasayaki wa iranai
 nee aisu nara aishite iya naraba kiratte
 shirokuro tsukanai daajirin
 mabuta no iranai uso no kotoba ni ai wo segande shimau
-“ikanaide yo”
+"ikanaide yo"
 
 kuchi wo tsukezu ni sameta koucha wo
 suterarenai you na koi demo
@@ -516,7 +516,7 @@ hasshou "kurushii" wa iyaiyaiya iyaiyaiya
 
 maa! zekkyou na kanjou rakka papparanooia"a"
 oboregoe agete wa guruguru
-maa⚠️ zettai zetsumei rakka yattara mettara
+maa zettai zetsumei rakka yattara mettara
 shizume yumeyume iyaiyaiya
 
 saa bababagu sa bagubagu
@@ -545,14 +545,14 @@ paaranooi"a" pa paaranooi"a"
 pa paaranooi"a" iyaiyaiya
 
 saa zenkkyou na kanjou rakka papparanooi"a"
-hidari migi yukue mo guruguru hi⚠️san
+hidari migi yukue mo guruguru hisan
 genkainou kurucchatte yattara mettara
 yami mayoe yoe inai inai baa
 inai inai batten
 
 zekkyou na kanjou rakka papparanooi"a"
 oboregoe agete wa guruguru
-maa⚠️ zettai zetsumei rakka yattara mettara
+maa zettai zetsumei rakka yattara mettara
 kogoe kare hate iyaiyaiya
 
 saa bababagu sa bagubagu
@@ -647,11 +647,11 @@ zukin zukin zukin "zukin zukin"
 zukizukizuki "zukizukizuki"
 zuki zuki zukin
 
-kaware…
+kaware...
 zukizukizukizukizuki
 
 dare datte tamashii karagara
-zukizukizuki…
+zukizukizuki...
 itami to ranguraa wo kurattattaratta
 da no ni naze darou ima mo
 zukizukizuki tte (zukizuki)
@@ -665,9 +665,9 @@ zazazaza zamuza
 dakara "genjitsu wa mou ii" nante iu na yo zamuza
  ookee?
 
-"zukizukizuki…"
+"zukizukizuki..."
 zazazazamuza
-"zukizukizuki…"
+"zukizukizuki..."
 zazazazamuza
-"zukizuki…"
+"zukizuki..."
 zuki

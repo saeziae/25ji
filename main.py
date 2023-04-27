@@ -9,6 +9,17 @@ PORT = 2500
 LYRICS_FILE = 'lyrics.txt'
 LYRICS = []
 FOLDER = './music'
+ASCII = b"""               //                                                        //    <>
+ _   _  _     //>    _      _                        _          _ \\\\>   //__   _____     ___    ___
+| \\ | |(_)   //     | |    | |                      | |        | | \\\\  //__ \\ | ____|_  / _ \\  / _ \\
+|  \\| | _   // __ _ | |__  | |_  ___  ___   _ __  __| |   __ _ | |_ \\\\//   ) || |__ (_)| | | || | | |
+| . ` || | // / _` || '_ \\ | __|/ __|/ _ \\ | '__|/ _` |  / _` || __| //   / / |___ \\   | | | || | | |
+| |\\  || |// | (_| || | | || |_| (__| (_) || |  | (_| | | (_| || |_ //\\\\ / /_  ___) |_ | |_| || |_| |
+|_| \\_||_//]  \\__, ||_| |_| \\__|\\___|\\___/ |_|   \\__,_|  \\__,_| \\__//  \\\\____||____/(_) \\___/  \\___/
+       <//>______/ |                                              //>   \\\\
+       //  \\______/                                              //]
+      //                                                        //
+"""
 
 
 async def handle(client_reader, client_writer):
@@ -23,6 +34,8 @@ async def handle(client_reader, client_writer):
                 client_writer.write(f.read())
             await client_writer.drain()
         else:
+            client_writer.write(ASCII)
+            await client_writer.drain()
             lyric = random.choice(LYRICS)
             for x in lyric:
                 client_writer.write(x.encode())
